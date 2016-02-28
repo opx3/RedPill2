@@ -27,6 +27,12 @@
 
 void myxor(char *, size_t);
 
+-(instancetype)init
+{
+  self = [self init];
+  return self;
+}
+
 // Initializer needs to know what GL view the texture will be used in.
 - (instancetype)initWithNSOpenGLView:(NSOpenGLView *)someview
 {
@@ -68,9 +74,9 @@ void myxor(char *, size_t);
    int depth, rowsize;
    unsigned char *imgdata;
    int row, destrow;
-
+  
    // Load image file
-   img = [NSBitmapImageRep imageRepWithContentsOfFile:filename];
+   img = (NSBitmapImageRep *)[NSBitmapImageRep imageRepWithContentsOfFile:filename];
    if (img == nil) {
       LogError("loadBitmap", "imageRepWithContentsOfFile returned nil. Image file is broken?");
       return FALSE;

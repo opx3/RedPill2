@@ -29,6 +29,11 @@
 
 @implementation MatrixStrip
 
+-(instancetype)init
+{
+  self = [self init];
+  return self;
+}
 - (instancetype) initWithCells:(int)cells x:(GLfloat)x y:(GLfloat)y z:(GLfloat)z params:(struct MatrixStripParams)params;
 {
 int c;
