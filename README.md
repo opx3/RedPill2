@@ -1,6 +1,6 @@
 This is Red Pill, a 3D OpenGL "Matrix" screensaver for Mac OS X.
 Copyright © 2002-2012 mathew <meta@pobox.com>.
-(N)Copyright © 2016 - px3 <rr@rdservice.de>.
+(N)Copyright © 2016 - px3 <rr@rdsroot.net>.
 
 This Fork is based on the orginal Screensaver of mathew, but adopted to XCode 7 and the newest MacOSX.
 
