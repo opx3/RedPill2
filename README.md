@@ -20,3 +20,4 @@ or visit [http://www.fsf.org/](http://www.fsf.org/)
 
 For more information about Red Pill and why you can't find it in the Mac App Store, see [http://meta.ath0.com/software/redpill/](http://meta.ath0.com/software/redpill/). Please note that Apple's terms and conditions on the App Store prohibit distribution of GPL-licensed software.
 
+# RedPill2
