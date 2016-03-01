@@ -75,8 +75,7 @@
 // The About button takes them to a web site
 - (IBAction)about:(id)sender
 {
-   NSAppleScript *go = [[NSAppleScript alloc]
-initWithSource:@"open location \"http://meta.ath0.com/redpill/\""];
+   NSAppleScript *go = [[NSAppleScript alloc]initWithSource:@"open location \"https://wwm4u.de/redpill/\""];
    [go executeAndReturnError:nil];
 }
 
