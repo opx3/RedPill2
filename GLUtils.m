@@ -9,6 +9,24 @@
 // get filled up with 30 lines of error text every second until it ate
 // all available disk space. Ouch!
 
+const char* get_gl_error_name(GLenum error)
+{
+    switch (error) {
+      #define CASE(x) case x: return #x;
+          CASE(GL_INVALID_ENUM)
+          CASE(GL_INVALID_FRAMEBUFFER_OPERATION)
+          CASE(GL_INVALID_OPERATION)
+          CASE(GL_INVALID_VALUE)
+          CASE(GL_NO_ERROR)
+          CASE(GL_OUT_OF_MEMORY)
+          CASE(GL_STACK_OVERFLOW)
+          CASE(GL_STACK_UNDERFLOW)
+      #undef CASE
+          default:
+              return NULL;
+    }
+}
+
 __private_extern__ void CheckGLError(const char *func, const char *note)
 {
   static int errcount = 0;
@@ -18,7 +36,7 @@ __private_extern__ void CheckGLError(const char *func, const char *note)
   {
     if (errcount < 4) {
       errcount += 1;
-      NSLog(@"%s.%s: %s (%d)", func, note, gluErrorString(error), error);
+      NSLog(@"%s.%s: %s (%d)", func, note, get_gl_error_name(error), error);
     }
   }
 }
