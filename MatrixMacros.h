@@ -31,6 +31,8 @@
 
 // Field of view in degrees
 #define FIELD_OF_VIEW 45.0
+// Needed for correct calculation of fov
+#define PI 3.1415926535897932384626433832795
 // Tangent of half that value, used for calculating coordinate ranges
 #define TAN_FOV 0.4142
 

@@ -22,6 +22,7 @@
 #import <AppKit/NSAttributedString.h>
 #import "MatrixMacros.h"
 #import "MatrixStripParams.h"
+#import <GLKit/GLKMatrix4.h>
 
 @implementation MatrixView
 
@@ -425,7 +426,11 @@ GLfloat fogcolor[4] = {0.0, 0.0, 0.0, 1.0};
    // Store the aspect ratio for later use
    aspectRatio = (GLfloat) width / (GLfloat) height;
    saverParams.aspectRatio = aspectRatio;
-   gluPerspective(FIELD_OF_VIEW, aspectRatio, CLIP_NEAR, CLIP_FAR);
+  
+   // replaced gluPerspective with glMultMatrixf cause it's deprecated in os x 10.9
+   // as gluPerspective took radians for the fov we need to calculate a little bit
+   // gluPerspective(FIELD_OF_VIEW, aspectRatio, CLIP_NEAR, CLIP_FAR);
+   glMultMatrixf(GLKMatrix4MakePerspective((FIELD_OF_VIEW*PI/180.0), aspectRatio, CLIP_NEAR, CLIP_FAR).m);
    CheckGLError("resizeGL","gluPerspective(FIELD_OF_VIEW)");
    // Go back to manipulating the model (objects)
    glMatrixMode(GL_MODELVIEW);
