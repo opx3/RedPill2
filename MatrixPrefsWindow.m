@@ -112,7 +112,6 @@
    [defaults setBool:[mainonly state] forKey:MAINONLY_KEY];
    // Plug web site if user selects spoon mode
    if ([spoon state] == TRUE) {
-     // NSRunAlertPanel(@"Realize", @"There is no spoon.", @"OK", nil, nil);
       NSAlert *alert = [[NSAlert alloc] init];
       alert.messageText = @"Realize";
       alert.informativeText = @"There is no spoon.";
