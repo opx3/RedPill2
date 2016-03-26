@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E939FE11C86F6410070BDD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E939FE01C86F6410070BDD5 /* Assets.xcassets */; };
+		7E939FE11C86F6410070BDD5 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E939FE01C86F6410070BDD5 /* Contents.json */; };
 		7E939FE41C884ADF0070BDD5 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E939FE21C884ADF0070BDD5 /* thumbnail@2x.png */; };
 		7E939FE51C884ADF0070BDD5 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E939FE31C884ADF0070BDD5 /* thumbnail.png */; };
 		8D255AC70486D3F9007BF209 /* RedPill_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* RedPill_Prefix.pch */; };
@@ -40,9 +40,9 @@
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCFA80370C50100C91783 /* RedPill_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPill_Prefix.pch; sourceTree = "<group>"; };
-		7E939FE01C86F6410070BDD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E939FE21C884ADF0070BDD5 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "../../Desktop/thumbnail@2x.png"; sourceTree = "<group>"; };
-		7E939FE31C884ADF0070BDD5 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = ../../Desktop/thumbnail.png; sourceTree = "<group>"; };
+		7E939FE01C86F6410070BDD5 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = SOURCE_ROOT; };
+		7E939FE21C884ADF0070BDD5 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = SOURCE_ROOT; };
+		7E939FE31C884ADF0070BDD5 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = SOURCE_ROOT; };
 		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D255AD30486D3F9007BF209 /* RedPill.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPill.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F75DEA14649DBA00BC0085 /* GLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUtils.h; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			children = (
 				7E939FE21C884ADF0070BDD5 /* thumbnail@2x.png */,
 				7E939FE31C884ADF0070BDD5 /* thumbnail.png */,
-				7E939FE01C86F6410070BDD5 /* Assets.xcassets */,
+				7E939FE01C86F6410070BDD5 /* Contents.json */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
 				32DBCFA70370C4F300C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
@@ -220,7 +220,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "RedPill" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -249,7 +249,7 @@
 				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
 				C0F75E0B14649E1C00BC0085 /* Matrix.nib in Resources */,
 				7E939FE51C884ADF0070BDD5 /* thumbnail.png in Resources */,
-				7E939FE11C86F6410070BDD5 /* Assets.xcassets in Resources */,
+				7E939FE11C86F6410070BDD5 /* Contents.json in Resources */,
 				7E939FE41C884ADF0070BDD5 /* thumbnail@2x.png in Resources */,
 				C0F75E1C1464A00100BC0085 /* Glyphs.png in Resources */,
 			);
