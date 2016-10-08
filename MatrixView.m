@@ -254,7 +254,8 @@ GLfloat d;
 int cells;
 MatrixStrip *strip;
 MatrixStrip *newstrip;
-int maxi,newstripi;
+long maxi;
+int newstripi;
 int i;
 struct MatrixStripParams tweaked;
 

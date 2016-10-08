@@ -71,7 +71,7 @@ void myxor(char *, size_t);
 - (BOOL) loadBitmap:(NSString *)filename
 {
    NSBitmapImageRep *img;
-   int depth, rowsize;
+   long depth, rowsize;
    unsigned char *imgdata;
    int row, destrow;
   
