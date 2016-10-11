@@ -1,6 +1,7 @@
 // This file is part of Red Pill
 // A 3D OpenGL "Matrix" screensaver for Mac OS X
 // Copyright (C) 2002, 2003 mathew <meta@pobox.com>
+// Copyright (C) 2016 px3 <rr@rdsroot.net>
 //
 // Red Pill is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
