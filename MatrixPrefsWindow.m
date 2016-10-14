@@ -76,8 +76,7 @@
 // The About button takes them to a web site
 - (IBAction)about:(id)sender
 {
-   NSAppleScript *go = [[NSAppleScript alloc]initWithSource:@"open location \"https://wwm4u.de/redpill/\""];
-   [go executeAndReturnError:nil];
+   [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://wwm4u.de/redpill"]];
 }
 
 - (IBAction)cancel:(id)sender
