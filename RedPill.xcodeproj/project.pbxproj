@@ -40,6 +40,7 @@
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCFA80370C50100C91783 /* RedPill_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPill_Prefix.pch; sourceTree = "<group>"; };
+		7E5EAEE61DAD1D7E00F0A164 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = de; path = de.lproj/Matrix.nib; sourceTree = "<group>"; };
 		7E939FE01C86F6410070BDD5 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = SOURCE_ROOT; };
 		7E939FE21C884ADF0070BDD5 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = SOURCE_ROOT; };
 		7E939FE31C884ADF0070BDD5 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = SOURCE_ROOT; };
@@ -236,6 +237,7 @@
 				Japanese,
 				French,
 				German,
+				de,
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* RedPill */;
 			projectDirPath = "";
@@ -302,6 +304,7 @@
 			children = (
 				C0F75E0A14649E1C00BC0085 /* English */,
 				C0F75E0E14649E5500BC0085 /* Japanese */,
+				7E5EAEE61DAD1D7E00F0A164 /* de */,
 			);
 			name = Matrix.nib;
 			sourceTree = "<group>";
