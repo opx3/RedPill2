@@ -3,7 +3,7 @@ Copyright © 2002-2012 mathew <meta@pobox.com>.
 Copyright © 2016 - px3 <rr@rdsroot.net>.
 
 This Fork is based on the orginal Screensaver of mathew, but adopted to XCode 8 and the newest MacOSX 10.12.
-Latest builds and downloads can be found at: https://wwwm4u.de/redpill/
+Latest builds and downloads can be found at: https://wwm4u.de/redpill/
 
 
 Red Pill is free software; you can redistribute it and/or modify
